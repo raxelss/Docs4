@@ -9,7 +9,6 @@
 <body>
 	<h1 id="title">Dryckesspels-app</h1>
 	<p id="description">Fyll i denna enkät,<sup></sup> så vi kan göra appen bättre <span class="desc-foot"><sub><sup></sup>TACK<sub></span></p>
-	<form method="POST" action="" id="survey-form">
 			<div>
 			<label for="name" id="name-label">Namn:</label><br>
 			<input class="input-elm" type="text" name="name" id="name" required placeholder="Namn">
@@ -50,12 +49,10 @@
 		<div>
 			<label for="more-improvements">Låt oss veta vad ni skulle vilja ha i appen!:</label>
 			<textarea class="textarea-elm" name="improvements-list" id="more-improvements"></textarea>
+			
 		</div>
-	
-			<form action="http://docs4you.net/done.html">
-                        <input type="submit" value="Skicka enkät" />
-				 <a href="http://docs4you.net/done.html" class="button-elm2">Skicka enkät</a>
-				
+		<form method="get" action="http://docs4you.net/done.html">
+    <button class="button-elm2" type="submit">Skicka enkät</button>
 </form>
 	
 
